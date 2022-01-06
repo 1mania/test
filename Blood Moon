@@ -1,10 +1,8 @@
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Pqunity's Blood Moon [LOADED]", "All")
 
-game.StarterGui:SetCore("SendNotification",  {
- Title = "Credits:";
- Text = "Thanks to Pqunity";
- Icon = game.Players:GetUserThumbnailAsync(game.Players.LocalPlayer.UserId, "HeadShot", Enum.ThumbnailSize.Size100x100);
- Duration = 10;
+game:GetService("StarterGui"):SetCore("SendNotification",{
+   Title = "Blood Moon";
+   Text = "Thanks to pqunity";
 })
 
 -- BLOOD MOON

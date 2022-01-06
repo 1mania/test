@@ -1,12 +1,3 @@
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Pqunity's Blood Moon [LOADED]", "All")
-
-game:GetService("StarterGui"):SetCore("SendNotification",{
-   Title = "Blood Moon";
-   Text = "Thanks to pqunity";
-})
-
--- BLOOD MOON
-
 _G.HackedWalkSpeed = 12
 
 local Plrs = game:GetService("Players")
@@ -142,3 +133,8 @@ end
 srv.RenderStepped:Wait()
 end
 end)()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+   Title = "Blood Moon";
+   Text = "Thanks to pqunity";
+})
